@@ -8,7 +8,7 @@ You work at a startup that is building a new and disruptive platform called Fint
 
 In this Challenge, you will complete the code that enables your customers to send cryptocurrency payments to fintech professionals. To develop the code and test it out, you will assume the perspective of a Fintech Finder customer who is using the application to find a fintech professional and pay them for their work.
 
-What You're Creating
+### What You're Creating
 To complete this Challenge, you will use two Python files, both of which are contained in the starter folder.
 
 The first file that you will use is called fintech_finder.py. It contains the code associated with the web interface of your application. The code included in this file is compatible with the Streamlit library. You will write all of your code for this Challenge in this file.
