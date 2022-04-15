@@ -33,12 +33,22 @@ Once you receive the transaction’s hash code, you will navigate to the Transac
 
 
 ### Technologies & Libraries
-This project uses the following key technologies and libraries: 
-* streamlit
-* dataclasses
-* web3
-* bip44
-* Ganache
+This project leverages python3 with the following packages:
+
+
+* [dotenv](https://www.npmjs.com/package/dotenv) - For accessing hidden .env file.
+
+* [streamlit](https://docs.streamlit.io/library/get-started/installation) - For a blockchain interface. 
+
+* [bip44](https://pypi.org/project/bip44/) - For simple Python bip44 implementation.
+
+* [web3](https://pypi.org/project/web3/) - A Python library for interacting with Ethereum. 
+
+* [dataclassses](https://pypi.org/project/dataclasses/) - For Python class data.  
+
+* [typing](https://pypi.org/project/typing/) - Typing defines a standard notation for Python function and variable type annotations. 
+
+---
 
 ### Steps Involved
 
