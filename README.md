@@ -34,7 +34,7 @@ Once you receive the transaction’s hash code, you will navigate to the Transac
 
 ## Technologies
 
-This project leverages **[python version 3.8.5](https://www.python.org/downloads/)** with the following packages and modules:
+This project leverages **[python version 3.9.7](https://www.python.org/downloads/)** with the following packages and modules:
 
 * [pandas](https://pandas.pydata.org/docs/) - *version 1.3.2* - This was used to be able to easily manipulate dataframes and create dataframes.
 
