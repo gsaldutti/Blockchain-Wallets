@@ -32,6 +32,10 @@ Review the transaction hash code associated with the validated blockchain transa
 Once you receive the transaction’s hash code, you will navigate to the Transactions section of Ganache to review the blockchain transaction details. To confirm that you have successfully created the transaction, you will save screenshots to the README.md file of your GitHub repository for this Challenge assignment.
 
 
+## Fintech Finder and Crypto Wallet
+
+This project is about creating a streamlit application called Fintech Finder to hire a fintech professional and pay them with using the user's crypto wallet.  This tool has been integrated with the Ethereum blockchain network in order to enable the customers to instantly pay the Fintech professionals whom they hire with cryptocurrency.
+
 ## Technologies
 
 This project leverages **[python version 3.9.7](https://www.python.org/downloads/)** with the following packages and modules:
