@@ -32,21 +32,33 @@ Review the transaction hash code associated with the validated blockchain transa
 Once you receive the transaction’s hash code, you will navigate to the Transactions section of Ganache to review the blockchain transaction details. To confirm that you have successfully created the transaction, you will save screenshots to the README.md file of your GitHub repository for this Challenge assignment.
 
 
-### Technologies & Libraries
-This project leverages python3 with the following packages:
+## Technologies
 
+This project leverages **[python version 3.8.5](https://www.python.org/downloads/)** with the following packages and modules:
 
-* [dotenv](https://www.npmjs.com/package/dotenv) - For accessing hidden .env file.
+* [pandas](https://pandas.pydata.org/docs/) - *version 1.3.2* - This was used to be able to easily manipulate dataframes and create dataframes.
 
-* [streamlit](https://docs.streamlit.io/library/get-started/installation) - For a blockchain interface. 
+* [Streamlit](https://streamlit.io/) - *version 0.84.2* - To be able to view the application into a web browser and that users can interact with the ledger.
 
-* [bip44](https://pypi.org/project/bip44/) - For simple Python bip44 implementation.
+* [Data Classes](https://docs.python.org/3/library/dataclasses.html) -This module provides a decorator and functions for automatically adding generated special methods to classes, which managed us to use class blocks into our code structure.
 
-* [web3](https://pypi.org/project/web3/) - A Python library for interacting with Ethereum. 
+* [datetime](https://docs.python.org/3/library/datetime.html) - While date and time arithmetic is supported, the focus of the implementation is on efficient attribute extraction for output formatting and manipulation. In our case, we used this to be able to determine the UTC timezoon to create a time stamp in our blockchain.
 
-* [dataclassses](https://pypi.org/project/dataclasses/) - For Python class data.  
+* [typing](https://docs.python.org/3/library/typing.html)- This allows us to use the most fundamental support consisting of the types Any, Union, Tuple, Callable, TypeVar, and Generic.
 
-* [typing](https://pypi.org/project/typing/) - Typing defines a standard notation for Python function and variable type annotations. 
+* [hashlib](https://docs.python.org/3/library/hashlib.html)- This module implements a common interface to many different secure hash and message digest algorithms. In our application, we use SHA256 to return a hexdigest.
+
+* [web3.py](https://web3py.readthedocs.io/en/stable/overview.html) - This is a Python library for connecting to and performing operations on Ethereum-based blockchains.
+
+* [eth-tester](https://pypi.org/project/eth-tester/) - This is a Python library that provides access to the tools we’ll use to test Ethereum-based applications.
+
+* [mnemonic](https://pypi.org/project/mnemonic/) - This is a Python implementation for generating a 12- or 24-word mnemonic seed phrase based on the BIP-39 standard.
+
+* [bip44](https://pypi.org/project/bip44/) - This is a Python implementation for deriving hierarchical deterministic wallets from a seed phrase based on the BIP-44 standard.
+
+* [Infura API](https://infura.io/register) - An API that provides instant access to the Ethereum network over HTTPS (i.e., the web). You will need to create an account with Infura.
+
+---
 
 ## Installation Guide
 
