@@ -62,12 +62,19 @@ This project leverages **[python version 3.8.5](https://www.python.org/downloads
 
 ## Installation Guide
 
-* pip install dotenv
-* pip install streamlit
-* pip install dataclasses
-* pip install web3
-* pip install typing
-* pip install bip44
+### 1. Install the application, Streamlit and Web3.py into your dev or base environment:
+
+`pip install streamlit`
+
+`pip install web3==5.17`
+
+`pip install eth-tester==0.5.0b3` or  `pip install eth-tester`
+
+`pip install mnemonic`
+
+`pip install bip44`
+
+### 2. Use VSCODE to view and edit the fintech_finder.py
 
 ---
 
