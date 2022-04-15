@@ -107,5 +107,5 @@ c) Screenshot of the recipient’s address balance and history from your Ganache
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Copyright © 2022# Blockchain-Wallets
-Gregg R. Saldutti
+# Copyright © 2022# Blockchain-Wallets
+# Gregg R. Saldutti
