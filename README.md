@@ -48,6 +48,15 @@ This project leverages python3 with the following packages:
 
 * [typing](https://pypi.org/project/typing/) - Typing defines a standard notation for Python function and variable type annotations. 
 
+## Installation Guide
+
+* pip install dotenv
+* pip install streamlit
+* pip install dataclasses
+* pip install web3
+* pip install typing
+* pip install bip44
+
 ---
 
 ### Steps Involved
